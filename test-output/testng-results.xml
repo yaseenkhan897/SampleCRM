@@ -1,234 +1,308 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36426" started-at="2024-02-11T06:13:15Z" finished-at="2024-02-11T06:13:52Z">
+  <suite name="Suite" duration-ms="177234" started-at="2024-02-21T05:27:11Z" finished-at="2024-02-21T05:30:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36426" started-at="2024-02-11T06:13:15Z" finished-at="2024-02-11T06:13:52Z">
-      <class name="LoginpageTest.ContactpageinformationTest">
-        <test-method status="PASS" signature="initreport()[pri:0, instance:LoginpageTest.ContactpageinformationTest@2ac273d3]" name="initreport" is-config="true" duration-ms="201" started-at="2024-02-11T11:43:15Z" finished-at="2024-02-11T11:43:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initreport -->
-        <test-method status="PASS" signature="BeforetestExecution(java.lang.reflect.Method)[pri:0, instance:LoginpageTest.ContactpageinformationTest@2ac273d3]" name="BeforetestExecution" is-config="true" duration-ms="2" started-at="2024-02-11T11:43:15Z" finished-at="2024-02-11T11:43:15Z">
+    <test name="Test" duration-ms="177234" started-at="2024-02-21T05:27:11Z" finished-at="2024-02-21T05:30:08Z">
+      <class name="LoginpageTest.DeletecontactnamesTest">
+        <test-method status="PASS" signature="BeforetestExecution(java.lang.reflect.Method)[pri:0, instance:LoginpageTest.DeletecontactnamesTest@1e127982]" name="BeforetestExecution" is-config="true" duration-ms="0" started-at="2024-02-21T10:59:34Z" finished-at="2024-02-21T10:59:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void LoginpageTest.ContactpageinformationTest.verifynewcontactclickTest() throws java.lang.InterruptedException]]>
+                <![CDATA[public void LoginpageTest.DeletecontactnamesTest.ValidateDeletecontactnamesTest(java.lang.String) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforetestExecution -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:LoginpageTest.ContactpageinformationTest@2ac273d3]" name="setup" is-config="true" duration-ms="25268" started-at="2024-02-11T11:43:15Z" finished-at="2024-02-11T11:43:41Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:LoginpageTest.DeletecontactnamesTest@1e127982]" name="setup" is-config="true" duration-ms="27126" started-at="2024-02-21T10:59:34Z" finished-at="2024-02-21T11:00:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="verifynewcontactclickTest()[pri:0, instance:LoginpageTest.ContactpageinformationTest@2ac273d3]" name="verifynewcontactclickTest" duration-ms="10086" started-at="2024-02-11T11:43:41Z" finished-at="2024-02-11T11:43:51Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='New Contac']"}
-  (Session info: chrome=121.0.6167.161)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'LAPTOP-GK9MKBMT', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}), userDataDir=C:\Users\MOHAMM~1\AppData\Local\Temp\scoped_dir13924_466799012}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), webauthn:extension:minPinLength=true, goog:chromeOptions={debuggerAddress=localhost:52434}, webauthn:extension:credBlob=true, webauthn:extension:prf=true, acceptInsecureCerts=false, browserVersion=121.0.6167.161, fedcm:accounts=true, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: 91a82c0056dafe608f0f5a26f780a2b4
-*** Element info: {Using=xpath, value=//input[@value='New Contac']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='New Contac']"}
-  (Session info: chrome=121.0.6167.161)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'LAPTOP-GK9MKBMT', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}), userDataDir=C:\Users\MOHAMM~1\AppData\Local\Temp\scoped_dir13924_466799012}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), webauthn:extension:minPinLength=true, goog:chromeOptions={debuggerAddress=localhost:52434}, webauthn:extension:credBlob=true, webauthn:extension:prf=true, acceptInsecureCerts=false, browserVersion=121.0.6167.161, fedcm:accounts=true, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: 91a82c0056dafe608f0f5a26f780a2b4
-*** Element info: {Using=xpath, value=//input[@value='New Contac']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.crm.qa.pages.Contactpageinformation.verifynewcontactclick(Contactpageinformation.java:29)
-	at LoginpageTest.ContactpageinformationTest.verifynewcontactclickTest(ContactpageinformationTest.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="ValidateDeletecontactnamesTest(java.lang.String)[pri:2, instance:LoginpageTest.DeletecontactnamesTest@1e127982]" name="ValidateDeletecontactnamesTest" duration-ms="5669" started-at="2024-02-21T11:00:01Z" data-provider="getDropDown" finished-at="2024-02-21T11:00:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delete Checked]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifynewcontactclickTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:LoginpageTest.ContactpageinformationTest@2ac273d3]" name="teardown" is-config="true" duration-ms="813" started-at="2024-02-11T11:43:51Z" finished-at="2024-02-11T11:43:51Z">
+        </test-method> <!-- ValidateDeletecontactnamesTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:LoginpageTest.DeletecontactnamesTest@1e127982]" name="teardown" is-config="true" duration-ms="313" started-at="2024-02-21T11:00:07Z" finished-at="2024-02-21T11:00:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="FAIL" signature="AftertestExecution(org.testng.ITestResult)[pri:0, instance:LoginpageTest.ContactpageinformationTest@2ac273d3]" name="AftertestExecution" is-config="true" duration-ms="3" started-at="2024-02-11T11:43:51Z" finished-at="2024-02-11T11:43:51Z">
+        <test-method status="PASS" signature="AftertestExecution(org.testng.ITestResult)[pri:0, instance:LoginpageTest.DeletecontactnamesTest@1e127982]" name="AftertestExecution" is-config="true" duration-ms="0" started-at="2024-02-21T11:00:07Z" finished-at="2024-02-21T11:00:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifynewcontactclickTest status=SKIP method=ContactpageinformationTest.verifynewcontactclickTest()[pri:0, instance:LoginpageTest.ContactpageinformationTest@2ac273d3] output={null}]]]>
+                <![CDATA[[TestResult name=ValidateDeletecontactnamesTest status=SUCCESS method=DeletecontactnamesTest.ValidateDeletecontactnamesTest(java.lang.String)[pri:2, instance:LoginpageTest.DeletecontactnamesTest@1e127982] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'LAPTOP-GK9MKBMT', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'LAPTOP-GK9MKBMT', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:131)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:388)
-	at com.crm.qa.util.Testutil.Takescreenshot(Testutil.java:69)
-	at com.crm.qa.base.Testbase.AftertestExecution(Testbase.java:101)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AftertestExecution -->
-        <test-method status="SKIP" signature="BeforetestExecution(java.lang.reflect.Method)[pri:0, instance:LoginpageTest.ContactpageinformationTest@2ac273d3]" name="BeforetestExecution" is-config="true" duration-ms="0" started-at="2024-02-11T11:43:52Z" finished-at="2024-02-11T11:43:52Z">
+      </class> <!-- LoginpageTest.DeletecontactnamesTest -->
+      <class name="LoginpageTest.ContactpageTest">
+        <test-method status="PASS" signature="initreport()[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="initreport" is-config="true" duration-ms="261" started-at="2024-02-21T10:57:11Z" finished-at="2024-02-21T10:57:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforetestExecution -->
-        <test-method status="SKIP" signature="setup()[pri:0, instance:LoginpageTest.ContactpageinformationTest@2ac273d3]" name="setup" is-config="true" duration-ms="0" started-at="2024-02-11T11:43:52Z" finished-at="2024-02-11T11:43:52Z">
+        </test-method> <!-- initreport -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="setup" is-config="true" duration-ms="29281" started-at="2024-02-21T10:57:12Z" finished-at="2024-02-21T10:57:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="verifynewcontactclickTest()[pri:0, instance:LoginpageTest.ContactpageinformationTest@2ac273d3]" name="verifynewcontactclickTest" duration-ms="0" started-at="2024-02-11T11:43:52Z" finished-at="2024-02-11T11:43:52Z">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'LAPTOP-GK9MKBMT', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'LAPTOP-GK9MKBMT', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:131)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:388)
-	at com.crm.qa.util.Testutil.Takescreenshot(Testutil.java:69)
-	at com.crm.qa.base.Testbase.AftertestExecution(Testbase.java:101)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+        <test-method status="PASS" signature="BeforetestExecution(java.lang.reflect.Method)[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="BeforetestExecution" is-config="true" duration-ms="0" started-at="2024-02-21T10:57:12Z" finished-at="2024-02-21T10:57:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void LoginpageTest.ContactpageTest.validatecreatenewcontact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifynewcontactclickTest -->
-        <test-method status="SKIP" signature="generateReport()[pri:0, instance:LoginpageTest.ContactpageinformationTest@2ac273d3]" name="generateReport" is-config="true" duration-ms="0" started-at="2024-02-11T11:43:52Z" finished-at="2024-02-11T11:43:52Z">
+        </test-method> <!-- BeforetestExecution -->
+        <test-method status="PASS" signature="validatecreatenewcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:LoginpageTest.ContactpageTest@617faa95]" name="validatecreatenewcontact" duration-ms="8408" started-at="2024-02-21T10:57:41Z" data-provider="getCRMTestdata" finished-at="2024-02-21T10:57:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test_1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test_1_Sname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XYZ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dummygmail@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecreatenewcontact -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="teardown" is-config="true" duration-ms="1056" started-at="2024-02-21T10:57:49Z" finished-at="2024-02-21T10:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="BeforetestExecution(java.lang.reflect.Method)[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="BeforetestExecution" is-config="true" duration-ms="0" started-at="2024-02-21T10:57:51Z" finished-at="2024-02-21T10:57:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void LoginpageTest.ContactpageTest.validatecreatenewcontact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforetestExecution -->
+        <test-method status="PASS" signature="AftertestExecution(org.testng.ITestResult)[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="AftertestExecution" is-config="true" duration-ms="0" started-at="2024-02-21T10:57:51Z" finished-at="2024-02-21T10:57:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatecreatenewcontact status=SUCCESS method=ContactpageTest.validatecreatenewcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:LoginpageTest.ContactpageTest@617faa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AftertestExecution -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="setup" is-config="true" duration-ms="25506" started-at="2024-02-21T10:57:51Z" finished-at="2024-02-21T10:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatecreatenewcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:LoginpageTest.ContactpageTest@617faa95]" name="validatecreatenewcontact" duration-ms="8252" started-at="2024-02-21T10:58:16Z" data-provider="getCRMTestdata" finished-at="2024-02-21T10:58:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test_2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test2_Sname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XYZ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dummygmail@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecreatenewcontact -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="teardown" is-config="true" duration-ms="980" started-at="2024-02-21T10:58:24Z" finished-at="2024-02-21T10:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="AftertestExecution(org.testng.ITestResult)[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="AftertestExecution" is-config="true" duration-ms="3" started-at="2024-02-21T10:58:25Z" finished-at="2024-02-21T10:58:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatecreatenewcontact status=SUCCESS method=ContactpageTest.validatecreatenewcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:LoginpageTest.ContactpageTest@617faa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AftertestExecution -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="setup" is-config="true" duration-ms="23894" started-at="2024-02-21T10:58:25Z" finished-at="2024-02-21T10:58:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BeforetestExecution(java.lang.reflect.Method)[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="BeforetestExecution" is-config="true" duration-ms="0" started-at="2024-02-21T10:58:25Z" finished-at="2024-02-21T10:58:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void LoginpageTest.ContactpageTest.validatecreatenewcontact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforetestExecution -->
+        <test-method status="PASS" signature="validatecreatenewcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:LoginpageTest.ContactpageTest@617faa95]" name="validatecreatenewcontact" duration-ms="7793" started-at="2024-02-21T10:58:49Z" data-provider="getCRMTestdata" finished-at="2024-02-21T10:58:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test_3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test3_Sname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XYZ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dummygmail@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecreatenewcontact -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="teardown" is-config="true" duration-ms="948" started-at="2024-02-21T10:58:57Z" finished-at="2024-02-21T10:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="BeforetestExecution(java.lang.reflect.Method)[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="BeforetestExecution" is-config="true" duration-ms="4" started-at="2024-02-21T10:58:58Z" finished-at="2024-02-21T10:58:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void LoginpageTest.ContactpageTest.validatecreatenewcontact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforetestExecution -->
+        <test-method status="PASS" signature="AftertestExecution(org.testng.ITestResult)[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="AftertestExecution" is-config="true" duration-ms="0" started-at="2024-02-21T10:58:58Z" finished-at="2024-02-21T10:58:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatecreatenewcontact status=SUCCESS method=ContactpageTest.validatecreatenewcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:LoginpageTest.ContactpageTest@617faa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AftertestExecution -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="setup" is-config="true" duration-ms="26730" started-at="2024-02-21T10:58:58Z" finished-at="2024-02-21T10:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatecreatenewcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:LoginpageTest.ContactpageTest@617faa95]" name="validatecreatenewcontact" duration-ms="8423" started-at="2024-02-21T10:59:25Z" data-provider="getCRMTestdata" finished-at="2024-02-21T10:59:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test_4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test4_Sname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XYZ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dummygmail@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecreatenewcontact -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="teardown" is-config="true" duration-ms="975" started-at="2024-02-21T10:59:33Z" finished-at="2024-02-21T10:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="AftertestExecution(org.testng.ITestResult)[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="AftertestExecution" is-config="true" duration-ms="1" started-at="2024-02-21T10:59:34Z" finished-at="2024-02-21T10:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatecreatenewcontact status=SUCCESS method=ContactpageTest.validatecreatenewcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:LoginpageTest.ContactpageTest@617faa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AftertestExecution -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:LoginpageTest.ContactpageTest@617faa95]" name="generateReport" is-config="true" duration-ms="885" started-at="2024-02-21T11:00:07Z" finished-at="2024-02-21T11:00:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-      </class> <!-- LoginpageTest.ContactpageinformationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- LoginpageTest.ContactpageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

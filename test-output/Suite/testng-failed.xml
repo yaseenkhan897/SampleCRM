@@ -6,17 +6,20 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="LoginpageTest.ContactpageinformationTest">
+      <class name="LoginpageTest.ContactpageTest">
         <methods>
-          <include name="verifynewcontactclickTest"/>
           <include name="setup"/>
-          <include name="generateReport"/>
           <include name="teardown"/>
-          <include name="BeforetestExecution"/>
-          <include name="initreport"/>
-          <include name="AftertestExecution"/>
+          <include name="validatecreatenewcontact"/>
         </methods>
-      </class> <!-- LoginpageTest.ContactpageinformationTest -->
+      </class> <!-- LoginpageTest.ContactpageTest -->
+      <class name="LoginpageTest.DeletecontactnamesTest">
+        <methods>
+          <include name="ValidateDeletecontactnamesTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- LoginpageTest.DeletecontactnamesTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

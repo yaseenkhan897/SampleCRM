@@ -7,7 +7,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="LoginpageTest.ContactpageTest"/>
-     <!-- <class name="LoginpageTest.ContactpageinformationTest"/>  -->
+     <class name="LoginpageTest.DeletecontactnamesTest"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

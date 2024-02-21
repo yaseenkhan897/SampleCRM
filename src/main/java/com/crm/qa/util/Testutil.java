@@ -11,8 +11,10 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.xmlbeans.impl.xb.xmlconfig.Extensionconfig.Interface;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.security.Credentials;
 
 import com.crm.qa.base.Testbase;
 
@@ -21,9 +23,10 @@ public class Testutil extends Testbase {
 	public static long Page_load_timeout =20;
 	public static long implicity_wait =10;
 	public static String Excelsheetpath = "C:\\Users\\MOHAMMED YASEEN KHAN\\eclipse-workspace\\framework2023\\src\\main"
-			    + "\\java\\com\\crm\\qa\\testdata\\NaveenPOMPratcie.xlsx";
+			    + "\\java\\com\\crm\\qa\\testdata\\CRMdatasheet.xlsx";
 	public static Workbook book;
 	public static Sheet sheet;
+	
 	
 	
 	public void switichtoframe() {
@@ -77,6 +80,14 @@ public class Testutil extends Testbase {
 	}
 	 
 	
+	public void acceptAlert() {
+		
+	getDriver().switchTo().alert().accept();;
+	}
 	
+	public void DismissAlert() {
+		
+		getDriver().switchTo().alert().dismiss();;
+		}
 	
 }

@@ -15,19 +15,20 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
-
 import com.crm.qa.util.Testutil;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Testbase {
 	public static WebDriver driver;
-	public static Properties prop ;
-	public static com.aventstack.extentreports.ExtentReports extentreport ; 
-	public static com.aventstack.extentreports.ExtentTest extenttest;
+	public static Properties prop ; 
+	public static ExtentTest extenttest;
 	public static String  tcname;
+	public static ExtentReports extentreport;
+	
 	
 	public Testbase()  {
 		try {
@@ -37,10 +38,10 @@ public class Testbase {
 				prop.load(fip);
 			}	
 			catch (FileNotFoundException e) {
-				// TODO Auto-generated catch block
+	
 				e.printStackTrace(); }
 				catch (IOException e) {
-					// TODO Auto-generated catch block
+					
 					e.printStackTrace();
 			}
 				 
@@ -61,8 +62,7 @@ public class Testbase {
 			
 			driver = new FirefoxDriver();
 		}
-		
-				
+
 				driver.manage().window().maximize();
 				driver.manage().deleteAllCookies();
 				driver.manage().timeouts().pageLoadTimeout(Testutil.Page_load_timeout, TimeUnit.SECONDS);
@@ -71,10 +71,11 @@ public class Testbase {
 			
 		}
 	
-	
+
 	
 	@BeforeMethod
 	public void BeforetestExecution(Method method) {
+		
 	 tcname =	method.getName();
 	System.out.println("CURRENTLY EXECUTING TESTCASE NAME IS:"+tcname);
 	extenttest = extentreport.startTest(tcname);
@@ -107,8 +108,8 @@ public class Testbase {
 		
 		@BeforeTest
 		public void initreport() {
-		 extentreport = new ExtentReports("C:\\Users\\MOHAMMED YASEEN KHAN\\eclipse-workspace\\"
-					+ "framework2023\\src\\main\\java\\com\\crm\\qa\\extentreport\\report.html");
+		 extentreport = new ExtentReports("C:\\Users\\MOHAMMED YASEEN KHAN\\"
+		 		+ "eclipse-workspace\\framework2023\\src\\main\\java\\com\\crm\\qa\\extentreport\\report.html");
 
 		}
 		
@@ -120,8 +121,13 @@ public class Testbase {
 			
 		}
 		
-		public ExtentTest getExtenttest() {
+		public static ExtentTest getExtenttest() {
 			return extenttest;
 		}
-	}
 
+	
+	public static WebDriver getDriver() {
+		return driver;
+	}
+	
+}

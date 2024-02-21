@@ -43,7 +43,7 @@ public class Homepage extends Testbase{
 	
 	public contactpage clickoncontactlink() {
 		contactlink.click();
-        return new contactpage() ;
+        return new contactpage();
 	}
 	
 	public Dealspage clickondealslink() {

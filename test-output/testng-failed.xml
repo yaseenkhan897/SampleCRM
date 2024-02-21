@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.crm.qa.listeners.TestcaseTracking"/>
+  </listeners>
+  <test name="Test(failed)">
     <classes>
-      <class name="LoginpageTest.ContactpageinformationTest">
+      <class name="LoginpageTest.ContactpageTest">
         <methods>
-          <include name="verifynewcontactclickTest"/>
           <include name="setup"/>
-          <include name="generateReport"/>
           <include name="teardown"/>
-          <include name="BeforetestExecution"/>
-          <include name="initreport"/>
-          <include name="AftertestExecution"/>
+          <include name="validatecreatenewcontact"/>
         </methods>
-      </class> <!-- LoginpageTest.ContactpageinformationTest -->
+      </class> <!-- LoginpageTest.ContactpageTest -->
+      <class name="LoginpageTest.DeletecontactnamesTest">
+        <methods>
+          <include name="ValidateDeletecontactnamesTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- LoginpageTest.DeletecontactnamesTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

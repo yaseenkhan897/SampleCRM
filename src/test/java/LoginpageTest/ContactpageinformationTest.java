@@ -1,4 +1,4 @@
-package LoginpageTest;
+/*package LoginpageTest;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.security.Credentials;
@@ -54,9 +54,9 @@ public class ContactpageinformationTest extends Testbase{
 	
 	//In this class I have used the extentreport to generate report
 	
-	/*getExtenttest().log(LogStatus.PASS, "The url has entered as  "+url);
+	getExtenttest().log(LogStatus.PASS, "The url has entered as  "+url);
 	getExtenttest().log(LogStatus.PASS, "username hase entered as "+"firstname");
-	getExtenttest().log(LogStatus.PASS, "username hase entered as "+"password");*/
+	getExtenttest().log(LogStatus.PASS, "username hase entered as "+"password");
 	
 	}
 	
@@ -87,3 +87,4 @@ public class ContactpageinformationTest extends Testbase{
 	
 	
 }
+*/

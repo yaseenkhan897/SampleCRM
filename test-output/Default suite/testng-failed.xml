@@ -3,17 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="LoginpageTest.ContactpageinformationTest">
+      <class name="LoginpageTest.DeletecontactnamesTest">
         <methods>
-          <include name="verifynewcontactclickTest"/>
+          <include name="ValidateDeletecontactnamesTest"/>
           <include name="setup"/>
-          <include name="generateReport"/>
           <include name="teardown"/>
-          <include name="BeforetestExecution"/>
-          <include name="initreport"/>
-          <include name="AftertestExecution"/>
         </methods>
-      </class> <!-- LoginpageTest.ContactpageinformationTest -->
+      </class> <!-- LoginpageTest.DeletecontactnamesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
